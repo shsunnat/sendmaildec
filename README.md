@@ -88,5 +88,5 @@ def plus(a,b):
 ## Installation
 
 ```sh
-clone https://github.com/shsunnat/sendmaildec.git
+git clone https://github.com/shsunnat/sendmaildec.git
 ```
