@@ -33,7 +33,7 @@ Just make to save the password somewhere safe.
 ## Sending simple emails
 
 ```sh
-@sendemail('testemail11@gmail.com','email_password', 'email_receiver','Main Subject', 'This is test')
+@sendemail('sender_email','email_password', 'email_receiver','Main Subject', 'This is test')
 def plus(a,b):
   ...
 ```
