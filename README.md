@@ -1,2 +1,2 @@
 # sendmaildec
-Email sender 
+## Email sender decorator
