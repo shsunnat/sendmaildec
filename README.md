@@ -2,7 +2,7 @@
 
 This is decator for using sending email 
 
-- Decorator is simple to use (no hard coding)
+- Decorator is simple to use 
 - Easy following
 
 ## Features
@@ -37,3 +37,22 @@ Just make to save the password somewhere safe.
 def plus(a,b):
   ...
 ```
+
+## Sending emails to multiple recipients
+
+```sh
+@sendemail('sender_email','email_password', ['email_receiver_1', 'email_receiver_1', ...],'Main Subject', 'This is test')
+def plus(a,b):
+  ...
+```
+## Sending files
+
+```sh
+@sendemail('sender_email','email_password', ['email_receiver_1', 'email_receiver_1', ...],'Main Subject', 'This is test', file='book.pdf')
+def plus(a,b):
+  ...
+```
+
+![3](https://user-images.githubusercontent.com/93898481/205282692-11b8f827-224e-4de1-9df1-31bd97479251.png)
+
+
