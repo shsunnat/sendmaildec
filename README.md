@@ -55,4 +55,38 @@ def plus(a,b):
 
 ![3](https://user-images.githubusercontent.com/93898481/205282692-11b8f827-224e-4de1-9df1-31bd97479251.png)
 
+## Sending HTML formatted emails
 
+```sh
+html = """ 
+<!DOCTYPE html>
+<html>
+    <body>
+        <div style="background-color:red;padding:10px 20px; width: 410px;">
+            <h2>This Is Message For You</h2>
+        </div>
+        <div style="padding:20px 0px">
+            <div style="height: 500px;width:400px">
+                <img src="https://avatars.mds.yandex.net/i?id=7acca5dc31999ab261c86d4ba53b47fa9d558c37-3922549-images-thumbs&n=13" style="height: 300px;">
+                <div style="text-align:center;">
+                    <h3>My first article</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ducimus deleniti nemo quibusdam iste sint!</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+"""
+@sendemail('sender_email','email_password', 'email_receiver','Main Subject', html, is_html=True)
+def plus(a,b):
+  ...
+```
+
+![4](https://user-images.githubusercontent.com/93898481/205287512-6e25c6b3-4170-404e-a591-f8a7cc59397a.png)
+
+## Installation
+
+```sh
+clone https://github.com/shsunnat/sendmaildec.git
+```
