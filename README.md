@@ -29,3 +29,11 @@ That’s it! A modal window like this will pop up:
 ![2](https://user-images.githubusercontent.com/93898481/205279194-80171727-9217-4619-8adf-baf7d3db3540.jpg)
 
 Just make to save the password somewhere safe.
+
+## Sending simple emails
+
+```sh
+@sendemail('testemail11@gmail.com','email_password', 'email_receiver','Main Subject', 'This is test')
+def plus(a,b):
+  ...
+```
